@@ -1,4 +1,4 @@
-connect("weblogic", "welcome1", "t3://10.87.225.160:10101")
+connect("weblogic", "welcome1", "t3://10.87.225.160:10501")
 edit()
 startEdit()
 
