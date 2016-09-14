@@ -1,6 +1,8 @@
+import sys
 from java.io import FileInputStream
+
  
-propInputStream = FileInputStream("details.properties")
+propInputStream = FileInputStream(sys.argv[1])
 configProps = Properties()
 configProps.load(propInputStream)
  
