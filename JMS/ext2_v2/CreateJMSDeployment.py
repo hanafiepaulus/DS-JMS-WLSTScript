@@ -6,7 +6,7 @@ cd('/SystemResources/ESBDBResources')
 cmo.createSubDeployment('ESBDBDeployment')
 
 cd('/SystemResources/ESBDBResources/SubDeployments/ESBDBDeployment')
-set('Targets',jarray.array([ObjectName('com.bea:Name=ext_esb2_v2_jms1,Type=JMSServer'),ObjectName('com.bea:Name=ext_esb2_v2_jms2,Type=JMSServer'),ObjectName('com.bea:Name=ext_esb2_v2_jms3,Type=JMSServer'),ObjectName('com.bea:Name=ext_esb2_v2_jms4,Type=JMSServer')], ObjectName
+set('Targets',jarray.array([ObjectName('com.bea:Name=ext_esb2_v2_jms1,Type=JMSServer'),ObjectName('com.bea:Name=ext_esb2_v2_jms2,Type=JMSServer'),ObjectName('com.bea:Name=ext_esb2_v2_jms3,Type=JMSServer'),ObjectName('com.bea:Name=ext_esb2_v2_jms4,Type=JMSServer')], ObjectName))
 
 cd('/SystemResources/SAFResources')
 cmo.createSubDeployment('SAFDeployment')
@@ -25,7 +25,6 @@ cmo.createSubDeployment('WNADeployment')
 
 cd('/SystemResources/WNAModules/SubDeployments/WNADeployment')
 set('Targets',jarray.array([ObjectName('com.bea:Name=ext_esb2_v2_jms1,Type=JMSServer'),ObjectName('com.bea:Name=ext_esb2_v2_jms2,Type=JMSServer'),ObjectName('com.bea:Name=ext_esb2_v2_jms3,Type=JMSServer'),ObjectName('com.bea:Name=ext_esb2_v2_jms4,Type=JMSServer')], ObjectName))
-
 
 
 save()
